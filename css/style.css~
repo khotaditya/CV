@@ -1,0 +1,268 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic);
+body {
+	background:#00bbd3;
+	color:#8b8b8b;
+	font-family:'Open Sans', sans-serif;
+	font-size:14px;
+	font-weight:400;
+	line-height:21px;
+	min-width:1250px;
+	position:relative;
+}
+body#tinymce {
+	background:#fff;
+	min-width:100%;
+}
+#page-wrapper {
+	background:#fff;
+	overflow:hidden;
+}
+h1 {
+	color:#333333;
+	font:300 60px/71px 'Open Sans', sans-serif;
+	margin-bottom:34px;
+}
+h2 {
+	color:#00bbd3;
+	font:400 48px/58px 'Open Sans', sans-serif;
+	margin-bottom:80px;
+}
+h3, #block-tm-follow-user h2 {
+	color:#333333;
+	font:400 36px/44px 'Open Sans', sans-serif;
+	margin-bottom:23px;
+}
+.profile h3, #block-tm-follow-user h2 {
+	border-bottom:1px solid #dbdbdb;
+	overflow:hidden;
+	padding-bottom:5px;
+}
+h4 {
+	color:#333333;
+	font:600 30px/36px 'Open Sans', sans-serif;
+	margin-bottom:20px;
+}
+h5 {
+	color:#333333;
+	font:600 24px/29px 'Open Sans', sans-serif;
+	margin-bottom:8px;
+}
+h6 {
+	color:#333333;
+	font:600 18px/21px 'Open Sans', sans-serif;
+	margin-bottom:9px;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color:inherit;
+	text-decoration:none;
+}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+	color:#f34235;
+	text-decoration:none;
+}
+input[type="text"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="number"], input[type="month"], input[type="password"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="week"], textarea, select {
+	background:#fff;
+	border:1px solid #dbdbdb;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	color:#8b8b8b !important;
+	font:400 14px 'Open Sans', sans-serif;
+	max-width:100%;
+	padding:11px 15px;
+}
+.u1124{
+	  background-attachment: scroll;
+	  z-index: 16;
+    	  min-height: 180px;
+				height: 670px;
+    	  padding-bottom: 350px;
+	  background: url("../images/computer_keyboard.jpg") no-repeat center center;
+	  background-size: cover;
+	}
+	.u1122{
+	  background-attachment: scroll;
+	  z-index: 15;
+    	  min-height: 600px;
+    	  padding-bottom: 50px;
+	  background: url("../images/bg02.jpg") no-repeat center center;
+	  background-size: cover;
+	}
+#u1094 {
+    z-index: 18;
+    min-height: 380.8499999999999px;
+    background-color: #d2ebd3;
+    padding-bottom: 0px;
+}
+
+#u1095 {
+    z-index: 19;
+    min-height: 635px;
+    background-color: #ffffff;
+    padding-bottom: 122px;
+}
+
+#u1000{
+   background-color: #B7E859;
+   height: 80px;
+
+}
+.header-section-2 {
+    padding: 89px 0 136px;
+}
+.site-name {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    display: inline-block;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 0;
+    max-width: 75%;
+    padding: 55px 3px 23px 0;
+    text-align: right;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+.slogan {
+    font-size: 48px;
+    line-height: 58px;
+    max-width: 75%;
+    padding-bottom: 111px;
+    padding-top: 80px;
+		border-left: 1px solid #fff;
+}
+.content_top_wrapper {
+    color: #444444;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.content_top_wrapper .region {
+    padding: 43px 0 44px;
+}
+.region {
+    position: relative;
+    z-index: 1;
+}
+#name {
+    color: #fff;
+    font-size: 0;
+    line-height: 0;
+    text-align: center;
+}
+#logo{
+   width: 294px;
+   height: 84px;
+   background: url("../images/akcelia_logo.jpg") no-repeat;
+
+}
+.header-section-1 { background:rgba(0,0,0,0.36); }
+.stickup {
+	-moz-transition:all 0.4s ease;
+	-o-transition:all 0.4s ease;
+	-webkit-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+	z-index:9999;
+}
+.isStuck {
+	box-shadow:0 2px 3px 0 rgba(0,0,0,0.2);
+	left:0;
+	right:0;
+
+}
+.views-field-field-image {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    margin-bottom: 0;
+    margin-right: 43px;
+    max-width: 45%;
+    padding-left: 39px;
+}
+.views-field-field-image img { border-radius:50%; }
+.views-field-title{
+    color: #333333;
+    
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 36px;
+    line-height: 44px;
+    font-family: sans-serif;
+    margin-bottom: 23px;
+}
+.views-field-content{
+    font-weight: 300;
+    line-height: 26px;	
+}
+#main {
+    padding: 68px 0 85px;
+}
+
+.block-title {
+    margin-bottom: 80px;
+    text-align: center;
+}
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+		font: 'Open Sans', sans-serif;
+		text-transform: uppercase;
+
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 38px 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #00bbd3;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
