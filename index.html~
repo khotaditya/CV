@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/scroll.js"></script>
+
+</head>
+<body>
+
+  <div class="stickup header-section-1 isStuck" id="top-menus" style="position: fixed; top:0; height: 100px;">
+     <div class="container">
+      <ul class="topnav">
+  	    <li><a href="#home">Home</a></li>
+  	    <li><a href="#about">About Me</a></li>
+  	    <li><a href="#portfolio">Portfolio</a></li>
+  	    <li><a href="#contact">Contact</a></li>
+  	    <li class="icon">
+    	      <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  	    </li>
+      </ul>
+    </div>
+  </div>
+<div class="u1124">
+  <div class="header-section-2">
+    <div class="container">
+      <div id="name">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="site-name">ADITYA KHOT</h1>
+          </div>
+          <div class="col-lg-6">
+            <div title="Web design of any complexity" id="slogan" class="slogan">Web design and development of any complexity </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="u1094">
+    <div class="container">
+	<div class="content_top_wrapper">
+	     <div class="region region-content-top">
+         	<div class="row">
+            	<div class="col-xs-4">
+                	<div class="views-field-field-image">
+                    	<img src="images/myPic.jpg" width="150" height="150">
+                    </div>
+                </div>
+                <div class="col-xs-8">
+                	<h3>Hello and welcome to my page!</h3>
+                    <div class="views-field-content">
+                    	Each web application that I produce is one-of-a-kind. Every new client is guaranteed to leave satisfied and inspired. Every new design is a masterpiece that is specifically created to reveal your business atmosphere.
+                    </div>    
+                </div>
+            </div>
+       	 </div>
+     </div>
+   </div>
+</div>
+<div id="u1095">
+  <div class="container">
+     <div id="main">
+	<div class="row">
+	   <div class="col-sm-12">	
+	       <h2 class="block-title">My Lifestyle</h2>
+	   </div> 	
+	</div>
+     </div>	
+  </div>
+</div>
+<div class="u1122">
+<div class="container">
+	<h1>Welcome</h1>
+  </div>
+</div>
+<div class="container">
+
+  <img class="img-responsive" src="akcelia_logo.jpg" alt="Chania" width="294px" height="81px">
+  <h3>Products</h3>
+  <a href="#" class="btn btn-info" role="button">Link Button</a>
+  <button type="button" class="btn btn-info">Button</button>
+  <input type="button" class="btn btn-info" value="Input Button">
+  <input type="submit" class="btn btn-info" value="Submit Button">
+<p>
+<form class="form-horizontal" role="form">
+	<div class="form-group has-error has-feedback">
+      <label class="col-sm-2 control-label" for="inputError">Input with error and glyphicon</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="inputError">
+        <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+      </div>
+      </div>
+      </form>
+      </p>
+<p>
+<form class="form-horizontal" role="form">
+	<div class="form-group has-error has-feedback">
+      <label class="col-sm-2 control-label" for="inputError">Input with error and glyphicon</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="inputError">
+        <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+      </div>
+      </div>
+      </form>
+      </p>
+  <h3>Products</h3>
+  <a href="#" class="btn btn-info" role="button">Link Button</a>
+  <button type="button" class="btn btn-info">Button</button>
+  <input type="button" class="btn btn-info" value="Input Button">
+  <input type="submit" class="btn btn-info" value="Submit Button">
+<p>The Golf has hosted golf royalty including Hogan, Snead, Palmer, Player, Nicklaus, Trevino, Faldo, Watson, Ballesteros, Woods, Mickelson and many others! Come follow in their footsteps as you play our five championship courses for yourself! The Old White TPC, home to The Golf Classic PGA TOUR event, is the oldest course currently used for a PGA TOUR event as well as the only C. B. Macdonald course available to the public!</p>
+<p>The Golf has hosted golf royalty including Hogan, Snead, Palmer, Player, Nicklaus, Trevino, Faldo, Watson, Ballesteros, Woods, Mickelson and many others! Come follow in their footsteps as you play our five championship courses for yourself! The Old White TPC, home to The Golf Classic PGA TOUR event, is the oldest course currently used for a PGA TOUR event as well as the only C. B. Macdonald course available to the public!</p>
+<p>The Golf has hosted golf royalty including Hogan, Snead, Palmer, Player, Nicklaus, Trevino, Faldo, Watson, Ballesteros, Woods, Mickelson and many others! Come follow in their footsteps as you play our five championship courses for yourself! The Old White TPC, home to The Golf Classic PGA TOUR event, is the oldest course currently used for a PGA TOUR event as well as the only C. B. Macdonald course available to the public!</p>
+</div>
+</body>
+</html>

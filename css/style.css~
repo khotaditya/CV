@@ -88,6 +88,16 @@ input[type="text"], input[type="color"], input[type="date"], input[type="datetim
 	  background: url("../images/bg02.jpg") no-repeat center center;
 	  background-size: cover;
 	}
+.u1155{
+	z-index: 18;
+	height: 670px;
+	background-size: cover;
+	background-color: #FFF;
+}	
+.about_me{
+	text-align: center;
+	
+}	
 #u1094 {
     z-index: 18;
     min-height: 380.8499999999999px;

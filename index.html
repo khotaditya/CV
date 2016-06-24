@@ -4,22 +4,58 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/scroll.js"></script>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
   <script src="js/scroll.js"></script>
-
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/book.css" />
+		<script src="js/modernizr.custom.js"></script>
+	<script src="js/demoad.js"></script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7243260-2']);
+_gaq.push(['_trackPageview']);
+(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+window.onload = function () {
+        var mapOptions = {
+            //give latitude and long
+            center: new google.maps.LatLng("48.88066", "2.24117"),
+            zoom: 13,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var infoWindow = new google.maps.InfoWindow();
+        var map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
+            //give latitude and long
+        var myLatlng = new google.maps.LatLng("48.88066", "2.24117");
+        var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title: "Paris"
+        });
+    }
+</script>
 </head>
 <body>
 
   <div class="stickup header-section-1 isStuck" id="top-menus" style="position: fixed; top:0; height: 100px;">
      <div class="container">
       <ul class="topnav">
-  	    <li><a href="#home">Home</a></li>
-  	    <li><a href="#about">About Me</a></li>
-  	    <li><a href="#portfolio">Portfolio</a></li>
-  	    <li><a href="#contact">Contact</a></li>
+  	    <li id="home"><a href="#home">Home</a></li>
+  	    <li id="about"><a href="#about">About Me</a></li>
+  	    <li id="portfolio"><a href="#portfolio">Portfolio</a></li>
+  	    <li id="contact"><a href="#contact">Contact</a></li>
   	    <li class="icon">
     	      <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
   	    </li>
@@ -71,52 +107,259 @@
 	       <h2 class="block-title">My Lifestyle</h2>
 	   </div> 	
 	</div>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="mylife-image">
+        <img class="img-responsive" src="images/DSC_0660.jpg" width="370px" height="245px">
+      </div>
+      <h4><b>Travelling</b></h4>
+      <h5>We love travelling and we love words, so imagine our surprise when we came across a massive treasure chest of words that describe how 
+			we feel before, during and after we travel better than anything we’ve ever seen, ever.
+		</h5>
+    </div>
+    <div class="col-sm-4">
+      <div class="mylife-image">
+        <img class="img-responsive" src="images/img10.jpg" width="370px" height="245px">
+      </div>
+      <h4><b>Programming</b></h4>
+      <h5>“Good code is its own best documentation. As you're about to add a comment, ask yourself, "How can I improve the code so that this comment 
+			isn't needed?" Improve the code and then document it to make it even clearer.”
+	  </h5>
+    </div>
+    <div class="col-sm-4">
+      <div class="mylife-image">
+        <img class="img-responsive" src="images/img27.jpg" width="370px" height="245px">
+      </div>
+      <h4><b>Stay heathy</b></h4>
+      <h5>“To ensure good health: eat lightly, breathe deeply, live moderately, cultivate cheerfulness, and maintain an interest in life.”<br/>  
+			<b>~William Londen</b>
+	  </h5>
+    </div>
+  </div>
      </div>	
   </div>
 </div>
 <div class="u1122">
+  <div class="container">
+    <div class="col-sm-6">
+	   <h1>Welcome</h1>
+      <h4>Web design is performed by an IT professional who use computer programming language (HTML or JavaScript). The art of web designing is very difficult and it takes years of hard work to master it fully. To craft an aesthetically pleasing web resource with excellent usability a web designer needs to play around with code for quite a white, and finally come up with the perfect look by trial and error.</h4>
+    </div>   
+  </div>
+</div>
+<div class="u1155">
+	<div class="container">
+		<div class="about_me">
+			<h2>A few words about me</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<img class="img-responsive" src="images/img02.jpg" width="370px" height="275px">	
+			</div>
+			<div class="col-md-8">
+				<h3 style="margin: 0px;">My name is Aditya KHOT.</h3><br/>
+				<h4>After studying masters at the Department of Compter Science and Management of Institut supérieur d'électronique de Paris and going 
+				through several jobs I became a Web Developer. I was born on 1st April 1990(I know it's April fool ;) ) in Pune. I finished my Bachelors from University of Pune in 2011. After some internships and jobs, 
+				I moved to France for higher studies in 2014. I’m always open to listen to new ideas and views and try to understand them even if they 
+				are the opposite to mine. It doesn’t mean I’ll be convinced but I am willing to fully listen and learn of other points of view. 
+				After I get to know people better and am more relaxed around them, I open up and am quite a funny and fun person. I like traveling, listening 
+				music, watching vlogs, reading blogs about web, playing cricket. 		
+				</h4>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="u1123">
+  <div class="container">
+    <div class="col-sm-12">
+	   Don't miss your chance! Hire me now!
+    </div>   
+  </div>
+</div>
+		<div class="container">
+			<!-- Top Navigation -->
+			<div class="codrops-top clearfix">
+				
+			</div>
+			
+			<div class="component">
+
+				<ul class="align">
+					<li>
+						<figure class='book'>
+
+							<!-- Front -->
+
+							<ul class='hardcover_front'>
+								<li>
+									<img src="images/cv.png" alt="" width="100%" height="100%">
+								</li>
+								<li></li>
+							</ul>
+
+							<!-- Pages -->
+
+							<ul class='page'>
+								<li></li>
+								<li>
+									<a class="btn" href="docs/CV_ADI_UPDATED.pdf" download>Download</a>
+								</li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+
+							<!-- Back -->
+
+							<ul class='hardcover_back'>
+								<li></li>
+								<li></li>
+							</ul>
+							<ul class='book_spine'>
+								<li></li>
+								<li></li>
+							</ul>
+							<figcaption>
+								<h1>Aditya KHOT</h1>
+								<span>Web designer and developer</span>
+								<p>I am a full stack developer. Having a knowledge of both front-end and back-end. For more details please download my CV here.</p>
+							</figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure class='book'>
+
+							<!-- Front -->
+
+							<ul class='hardcover_front'>
+								<li>
+									<img src="images/cover_letter.png" alt="" width="100%" height="100%">
+								</li>
+								<li></li>
+							</ul>
+
+							<!-- Pages -->
+
+							<ul class='page'>
+								<li></li>
+								<li>
+									<a class="btn" href="docs/Cover letter updated.pdf" download>Download</a>
+								</li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+
+							<!-- Back -->
+
+							<ul class='hardcover_back'>
+								<li></li>
+								<li></li>
+							</ul>
+							<ul class='book_spine'>
+								<li></li>
+								<li></li>
+							</ul>
+							<figcaption>
+								<h1>My motivation</h1>
+								<span>Every new design is a masterpiece that is specifically created to reveal your business atmosphere.</span>
+								<p>The web development and project management fascinates me and I look forward to working in this environment. For more details please download my Cover letter here.</p>
+							</figcaption>
+						</figure>
+					</li>
+					
+				</ul>
+				
+			</div>
+		</div>
 <div class="container">
-	<h1>Welcome</h1>
+	<h2 id="workWith">Work with clients</h2>
+	<div class="row">
+		<div class="col-sm-4">
+			<a href="http://www.volkswagen.com/"target="_blank"><img class="img-responsive" src="images/vw_logo.png" width="250px" height="250px"></a>
+		</div>
+		<div class="col-sm-4">
+			<a href="https://riskonline.klapp.fr/" target="_blank"><img class="img-responsive" src="images/coca_logo.png" width="370px" height="250px"></a>
+		</div>
+		<div class="col-sm-4">
+			<a href="http://www.zapr.in/" target="_blank"><img class="img-responsive" src="images/zapr.png" width="350px" height="140px"></a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4">
+			<a href="http://amazedigitizing.com/" target="_blank"><img class="img-responsive" src="images/amaze_digitizing_logo.png" width="150px" height="150px"></a>
+		</div>
+		<div class="col-sm-4">
+			<a href="http://www.akcelia.com/" target="_blank"><img class="img-responsive" src="images/akcelia_logo.png" width="300px" height="70px"></a>	
+		</div>
+		<div class="col-sm-4">
+			
+		</div>
+	</div>
+	<h2>My skills</h2>
+	<div class="row">
+		<div class="col-sm-3">
+			<img class="img-responsive" src="images/ps_logo.png" width="100px" height="100px">
+		</div>
+		<div class="col-sm-3">
+			<img class="img-responsive" src="images/html5_logo.png" width="100px" height="100px">
+		</div>
+		<div class="col-sm-3">
+			<img class="img-responsive" src="images/bootstrap_logo.png" width="100px" height="100px">
+		</div>
+		<div class="col-sm-3">
+			<img class="img-responsive" src="images/css3_logo.png" width="100px" height="100px">
+		</div>	
+	</div><br/><br/>	
+	<div class="row">
+		<div class="col-sm-3">
+			<img class="img-responsive" src="images/symfony_logo.png" width="100px" height="100px">
+		</div>
+		<div class="col-sm-3">
+			<img class="img-responsive" src="images/twig_logo.png" width="162px" height="100px">
+		</div>
+		<div class="col-sm-3">
+			<img class="img-responsive" src="images/jquery_logo.png" width="100px" height="100px">
+		</div>
+		<div class="col-sm-3">
+			<img class="img-responsive" src="images/js_logo.png" width="100px" height="100px">
+		</div>	
+	</div>		
+</div><br/><br/>
+<div class="u2223">
+  <div class="container">
+    <div class="col-sm-12">
+	   I know how to design my projects the most creative and artistic way
+    </div>   
   </div>
 </div>
 <div class="container">
+	<h2 id="myLocation">My Location</h2>
+	<div id="googleMap" style="width:1140px;height:380px;"></div>
+	<div class="row">
+		<div class="col-sm-4">
+			<h2 style="margin-bottom: 20px;">Contact Info</h2>
+			<h4>15, rue saulnier 92800, Puteaux<br/>France<br/>Email Id: <span style="color: #ff6666;">adityakhot5@gmail.com</span><br/>Contact number: +33751877621</h4>
+		</div>
+		<div class="col-sm-8">
+			<h2 style="margin-bottom: 20px;">Contact form</h2>
+			<form role="form" id="usrform">
+				<div class="form-group">
+					<input type="text" id="uname" name="uname" placeholder="Name">
+					<input type="email" id="email" name="email" placeholder="Email">
+					<input type="text" id="subject" name="subject" placeholder="Subject">
+				</div>
+				<!--<div class="form-group">
+					<input type="email" id="email" name="email" placeholder="Email">
+				</div>	
+				<div class="form-group">
+					<input type="text" id="subject" name="subject" placeholder="Subject">
+				</div>-->	
+			</form>	<br/>
+			<textarea rows="4" cols="86" id="comment" name="comment" form="usrform" placeholder="Comment"></textarea><br/>
+		</div>
+	</div>	
+</div>		
 
-  <img class="img-responsive" src="akcelia_logo.jpg" alt="Chania" width="294px" height="81px">
-  <h3>Products</h3>
-  <a href="#" class="btn btn-info" role="button">Link Button</a>
-  <button type="button" class="btn btn-info">Button</button>
-  <input type="button" class="btn btn-info" value="Input Button">
-  <input type="submit" class="btn btn-info" value="Submit Button">
-<p>
-<form class="form-horizontal" role="form">
-	<div class="form-group has-error has-feedback">
-      <label class="col-sm-2 control-label" for="inputError">Input with error and glyphicon</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="inputError">
-        <span class="glyphicon glyphicon-remove form-control-feedback"></span>
-      </div>
-      </div>
-      </form>
-      </p>
-<p>
-<form class="form-horizontal" role="form">
-	<div class="form-group has-error has-feedback">
-      <label class="col-sm-2 control-label" for="inputError">Input with error and glyphicon</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="inputError">
-        <span class="glyphicon glyphicon-remove form-control-feedback"></span>
-      </div>
-      </div>
-      </form>
-      </p>
-  <h3>Products</h3>
-  <a href="#" class="btn btn-info" role="button">Link Button</a>
-  <button type="button" class="btn btn-info">Button</button>
-  <input type="button" class="btn btn-info" value="Input Button">
-  <input type="submit" class="btn btn-info" value="Submit Button">
-<p>The Golf has hosted golf royalty including Hogan, Snead, Palmer, Player, Nicklaus, Trevino, Faldo, Watson, Ballesteros, Woods, Mickelson and many others! Come follow in their footsteps as you play our five championship courses for yourself! The Old White TPC, home to The Golf Classic PGA TOUR event, is the oldest course currently used for a PGA TOUR event as well as the only C. B. Macdonald course available to the public!</p>
-<p>The Golf has hosted golf royalty including Hogan, Snead, Palmer, Player, Nicklaus, Trevino, Faldo, Watson, Ballesteros, Woods, Mickelson and many others! Come follow in their footsteps as you play our five championship courses for yourself! The Old White TPC, home to The Golf Classic PGA TOUR event, is the oldest course currently used for a PGA TOUR event as well as the only C. B. Macdonald course available to the public!</p>
-<p>The Golf has hosted golf royalty including Hogan, Snead, Palmer, Player, Nicklaus, Trevino, Faldo, Watson, Ballesteros, Woods, Mickelson and many others! Come follow in their footsteps as you play our five championship courses for yourself! The Old White TPC, home to The Golf Classic PGA TOUR event, is the oldest course currently used for a PGA TOUR event as well as the only C. B. Macdonald course available to the public!</p>
-</div>
 </body>
 </html>
